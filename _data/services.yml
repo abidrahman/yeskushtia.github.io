@@ -1,0 +1,19 @@
+- title: Personal Development
+  icon: fas fa-user
+  description: Workshops and sessions to build confidence, communication, and life skills.
+
+- title: Professional Growth
+  icon: fas fa-briefcase
+  description: Practical career guidance, resume reviews, and interview preparation.
+
+- title: Online Courses
+  icon: fas fa-laptop
+  description: Accessible learning on goal setting, discipline, productivity, and more.
+
+- title: Mentorship
+  icon: fas fa-hands-helping
+  description: 1-on-1 and group mentorship for students navigating education and life.
+
+- title: Scholarships
+  icon: fas fa-graduation-cap
+  description: Financial support and guidance for promising students pursuing university education.
