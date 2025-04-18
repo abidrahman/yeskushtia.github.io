@@ -13,21 +13,24 @@
 
 theme: null
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://yeskushtia.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Your Awesome Website
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+# Updated site settings for personalization
+title      : "YES Kushtia - Empowering Rural Youth"
+email      : "ataur137@hotmail.com" # Contact email for Ataur Rahman
+description: "Empowering young adults in rural Bangladesh to achieve personal and professional growth."
+author     : "Ataur Rahman"
+slogan     : "...better together everyday" # Added slogan for the initiative
+
+# Additional custom variables for the initiative
+focus_area : "Young adults in rural Bangladesh, especially Kushtia"
+services   : "Courses, online sessions, and scholarships for personal and professional development"
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: "" # Add Google Analytics tracking code if available
 
 collections:
   portfolio:
