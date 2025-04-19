@@ -1,6 +1,9 @@
 // Styling for the services section
 #services {
   background-color: $gray-100;
+  .fa-stack-1x {
+    color: black;
+  }
 }
 
 .service-heading {
