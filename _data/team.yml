@@ -1,8 +1,0 @@
-- name: Ataur Rahman
-  role: Founder & Life Coach
-  image: assets/img/team/ataur.jpg  # you can add this image later
-  social:
-    - url: https://linkedin.com/in/ataurrahman
-      icon: fab fa-linkedin
-    - url: https://facebook.com/yeskushtia
-      icon: fab fa-facebook
