@@ -5,7 +5,7 @@
     <div class="row align-items-center">
       <div class="col-md-4">
         <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
+          >{{ site.data.sitetext[site.locale].footer.copyright }}</span
         >
       </div>
       <!-- Social Media -->
@@ -15,22 +15,11 @@
           <li class="list-inline-item">
             {% if link.url %}
             <a href="{{ link.url }}">
-              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+              <i class="{{ link.icon }}"></i>
             </a>
             {% endif %}
           </li>
           {% endfor %}
-        </ul>
-      </div>
-      <!-- Legal -->
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext[site.locale].footer.legal | default:
-              "Privacy Policy" }}</a
-            >
-          </li>
         </ul>
       </div>
     </div>
@@ -38,7 +27,7 @@
     <div class="row align-items-center">
       <div class="col-md-4">
         <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
+          >{{ site.data.sitetext.footer.copyright }}</span
         >
       </div>
       <!-- Social Media -->
@@ -48,22 +37,11 @@
           <li class="list-inline-item">
             {% if link.url %}
             <a href="{{ link.url }}">
-              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+              <i class="{{ link.icon }}"></i>
             </a>
             {% endif %}
           </li>
           {% endfor %}
-        </ul>
-      </div>
-      <!-- Legal -->
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext.footer.legal | default:
-              "Privacy Policy" }}</a
-            >
-          </li>
         </ul>
       </div>
     </div>
@@ -74,14 +52,11 @@
 <script>
   fixPageShort();
   function fixPageShort() {
-    if (window.innerHeight > document.body.offsetHeight) {
+    if(window.innerHeight > document.body.offsetHeight) {
       document.getElementById("footer").style.position = "fixed";
       document.getElementById("footer").style.bottom = 0;
-      document.getElementById("footer").style.right = 0;
-      document.getElementById("footer").style.left = 0;
       document.getElementById("footer").style.width = "100%";
     }
   }
 </script>
 {% endif %}
-<!-- End Footer -->
