@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "What We Offer"
+    text: ""
     section: services
     list:
       - title: "Personal Development"
@@ -66,8 +66,8 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "Empowering Rural Youth"
+    body: "YES Kushtia is dedicated to bridging the educational and opportunity gap for rural youth in Bangladesh. Founded in 2022, our initiative combines mentorship, skill development, and financial support to help talented young individuals reach their full potential. Through our comprehensive programs, we're building a community of empowered youth who will drive positive change in their communities and beyond."
     section: about
 
   team:
