@@ -19,12 +19,15 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.author }}">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.png">
+
   <!-- Open Graph / Social Media Meta Tags -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title | append: ' | ' | append: site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:image" content="{{ site.url }}/assets/img/header.png">
+  <meta property="og:image" content="{{ site.url }}/assets/img/header_mobile.png">
 
   <!-- Twitter Card Tags -->
   <meta name="twitter:card" content="summary_large_image">
