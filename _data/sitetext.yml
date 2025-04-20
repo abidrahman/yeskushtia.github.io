@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: "Empowering Rural Youth"
+    text: "Building Futures in Kushtia"
+    button: "Tell Me More"
     buttonlink: "#services"
 
   services:
@@ -79,14 +79,14 @@ en: &DEFAULT_EN
         role: "Founder & Life Coach"
         image: assets/img/team/ataur.jpg
         social:
-          - url: https://linkedin.com/in/ataurrahman
+          - url: https://www.linkedin.com/in/ataur-rahman-p-eng-pmp-3b91a460/
             icon: fab fa-linkedin
-          - url: https://facebook.com/yeskushtia
+          - url: https://www.facebook.com/profile.php?id=100091803572081
             icon: fab fa-facebook
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Reach out to us for any questions about our programs, mentorship opportunities, or how you can get involved."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -102,7 +102,7 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://facebook.com/yeskushtia
+      - url: https://www.facebook.com/profile.php?id=100091803572081
         icon: "fab fa-facebook-f"
       - url: "https://wa.me/+8801XXXXXXXXX"
         icon: "fab fa-whatsapp"
