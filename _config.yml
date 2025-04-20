@@ -13,11 +13,11 @@
 
 theme: null
 
-url    : "https://yeskushtia.com" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "http://yeskushtia.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Updated site settings for personalization
-title      : "YES Kushtia - Empowering Rural Youth"
+title      : "YES Kushtia - Empowering Youth in Bangladesh"
 email      : "ataur137@hotmail.com" # Contact email for Ataur Rahman
 description: "Empowering young adults in rural Bangladesh to achieve personal and professional growth."
 author     : "Ataur Rahman"
